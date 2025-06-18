@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Nagbuloe';
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nagbuloe';
+  src: url(../../assets/fonts/Poppins-SemiBold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nagbuloe';
+  src: url(../../assets/fonts/Poppins-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nagbuloe';
+  src: url(../../assets/fonts/Poppins-Thin.ttf);
+  font-weight: 400;
+  font-display: swap;
+}
+
+  
+:root {
+  --half-pearl-lusta-bg-txt: #f1e9d7;
+  --pastel-orange-txt: #d4a665;
+  --black-orange-bg: #212121;
+  --black-btn: #000000;
+  --dark-text: #212121;
+}
+
+.banner {
+    height: 135vh;
+    width: 100%;
+    padding: 1.2rem;
+    padding-right: 2rem;
+    background-image: url("../../assets/images/cover.jpg");
+    background-size:contain;
+    /* background-color: var(--half-pearl-lusta-bg-txt); */
+}
+
+.banner-heading {
+    position: sticky;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.3);
+    border:1px solid rgb(200,200,200);
+    top: 30%;
+    margin-bottom: 8%;
+    width: 50%;
+    padding:30px;
+    margin-left:25%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.banner-heading h1 {
+    font-size: 7.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 0.9;
+    /* background-color: #d4a665; */
+}
+
+.circle {
+    position: absolute;
+    /* background-color: aqua; */
+    top: 25%;
+    left: 11.5%;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 0.8rem;
+    top: 50%;
+    right: 2rem;
+}
+
+.scroll p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    writing-mode: vertical-lr;
+}
